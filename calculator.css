@@ -1,0 +1,50 @@
+.calculator{
+  width:400px;
+}
+#display{
+  background-color: gray;
+  width: 390px;
+  text-align: right;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#sub_display{
+  font-size: 10px;
+  color: orange;
+  text-align: right;
+  background-color: gray;
+  width: 390px;
+  margin-bottom: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  height:10px;
+}
+.small_buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.number_buttons{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+.arithmetic_buttons{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+}
+.number_button{
+  width: 100px;
+}
+.arithmetic_button{
+  width: 100px;
+}
+.acAndEqual_buttons{
+  display: flex;
+}
+.acAndEqual_buttons input{
+  width: 200px;
+}
